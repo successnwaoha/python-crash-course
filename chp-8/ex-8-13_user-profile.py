@@ -1,4 +1,5 @@
 def build_profile(first, last, **my_info):
+    """Builds a profile and adds it to a dictionary"""
     my_info['first name'] = first
     my_info['last name'] = last
     return my_info

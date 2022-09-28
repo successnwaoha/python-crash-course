@@ -1,4 +1,5 @@
-def make_album(artist_name, album_title, songs = None):
+def make_album(artist_name, album_title, songs=None):
+    """Shows artist's name, album title and number of songa with a default value of none"""
     info = {'artist':artist_name, 'album':album_title}
     if songs:
         info['song']=songs

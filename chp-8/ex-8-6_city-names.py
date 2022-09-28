@@ -1,4 +1,5 @@
 def city_country(city, country):
+    """Shows each city with thier country"""
     message = print(f"{city},{country}")
     return message
 
