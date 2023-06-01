@@ -5,13 +5,16 @@ class Restaurant:
         self.cuisine_type = cuisine_type
     def describe_restaurant(self):
         """Shows description of restaurant"""
-        print(f"Welcome to {self.restaurant_name},what would you like to order")
+        print(f"\nWelcome to {self.restaurant_name},what would you like to order")
         print(f"we have {self.cuisine_type} as a special on the menu today")
     def open_restaurant(self):
         """Prints a message saying the restaurant is open for business"""
         print(f"{self.restaurant_name} is open for business")
 restaurant = Restaurant('Tastia', 'Shawarma')
-print(f"Our restaurant is called {restaurant.restaurant_name}")
-print(f"\nToday we have {restaurant.cuisine_type}")
 restaurant.describe_restaurant()
-restaurant.open_restaurant()
+
+second_restaurant = Restaurant("Domino's pizza", 'Vegetarian pizza')
+second_restaurant.describe_restaurant()
+
+third_restaurant = Restaurant('Kfc', 'Kfc drumsticks')
+third_restaurant.describe_restaurant()

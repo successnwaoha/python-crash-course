@@ -11,7 +11,4 @@ class Restaurant:
         """Prints a message saying the restaurant is open for business"""
         print(f"{self.restaurant_name} is open for business")
 restaurant = Restaurant('Tastia', 'Shawarma')
-print(f"Our restaurant is called {restaurant.restaurant_name}")
-print(f"\nToday we have {restaurant.cuisine_type}")
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+print(f"This restaurant has served {restaurant.number_served} people today")

@@ -1,5 +1,5 @@
-names = ['dumaga','gabriel','parem','faith']
-print(f"{names[0]}, how far na")
-print(f"{names[1]}, how far na")
-print(f"{names[2]}, how far na")
-print(f"{names[3]}, how far na")
+names = ['dumaga','gabriel','faith','blessing']
+print(f"{names[0]}, how're you doing")
+print(f"{names[1]}, how're you doing")
+print(f"{names[2]}, how're you doing")
+print(f"{names[3]}, how're you doing")

@@ -1,14 +1,16 @@
-people = ['dumaga','gabriel','parem']
+people = ['dumaga','gabriel','faith']
 print(f"{people[0]}, you are invited to my party")
 print(f"{people[1]}, you are invited to my party")
 print(f"{people[2]}, you are invited to my party")
 
-print(f"{people[1]}, cant make it to the party")
-people[1] = 'solomon'
-print (people)
-
-print("Sorry everyone i just found a bigger dinner table")
-people.insert(0, 'joshua')
+print("Hi everyone, so i just found a bigger dinner table and i thought to invite more people")
+people.insert(0, 'blessing')
 people.insert(2, 'daniel')
-people.append('samuel')
+people.append('emmanuella')
 print(people)
+print(f"{people[0]}, you are invited to my party")
+print(f"{people[1]}, you are invited to my party")
+print(f"{people[2]}, you are invited to my party")
+print(f"{people[3]}, you are invited to my party")
+print(f"{people[4]}, you are invited to my party")
+print(f"{people[5]}, you are invited to my party")

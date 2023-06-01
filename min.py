@@ -1,14 +1,16 @@
-def get_formatted_name(firt_name, last_name):
-    full_name = f"{firt_name} {last_name}"
-    return full_name
-while True:
-    print("Please tell me your name:")
-    print("(Enter 'q' at any time to quit)")
-    f_name = input("First name:")
-    if f_name == 'q':
-        break
-    l_name = input("Last name:")
-    if l_name == 'q':
-        break
-    formated_name = get_formatted_name(f_name, l_name)
-    print(f"Hello, {formated_name}!")
+class Animal:
+    animal_type = "mammal"
+    counter = 0
+    def __init__(self, name):
+        self.name = name
+        Animal.counter += 1
+
+animal_one = Animal('rat')
+animal_two = Animal('cat')
+
+print(animal_one.animal_type)
+print(animal_two.animal_type)
+
+print(Animal.counter)
+
+#instance method, class method, static methods 
