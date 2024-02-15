@@ -1,8 +1,8 @@
 friend = {
-    'first name' :'parem',
-    'last name' :'ibrahim',
-    'age' :'17',
-    'city' :'bwari'
+    'first name' :'Blessing',
+    'last name' :'David',
+    'age' :'20',
+    'city' :'Texas'
 }
 print(friend['first name'])
 print(friend['last name'])

@@ -1,9 +1,9 @@
 friend_nums = {
-    'parem':'7',
-    'gabriel':'8',
-    'faith':'9',
-    'chidumaga':'6',
-    'daniel':'4'
+    'Blessing':'7',
+    'Gabriel':'8',
+    'Faith':'9',
+    'Solomon':'6',
+    'Daniel':'4'
 }
 print(friend_nums['parem'])
 print(friend_nums['gabriel'])

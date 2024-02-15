@@ -1,3 +1,4 @@
+"""A  class that can be used to represent a restaurant"""
 class Restaurant:
     def __init__(self, restaurant_name, cuisine_type):
         """Shows two attributes of the restaurant"""
